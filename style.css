@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3a2c2c;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: #c97c23;
+    text-align: center;
+    font-size: 10rem;
+    opacity: 0.4;
+}
+
+form{
+    /* margin: auto; */
+    max-width: 100%;
+    width: 450px;
+}
+
+.input{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+}
+.input::placeholder{
+    color: #c97c23;
+}
+
+.todos{
+    background-color: #c97c23;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.todos li{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-top: 1px solid #e5e5e5;
+}
+.todos li.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+small{
+    margin-top: 3rem;
+    color: red;
+    text-align: center;
+}
+.small-left{
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+}
+.small-right{
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+}
+
